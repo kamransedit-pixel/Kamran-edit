@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Kamran - Professional Video Editor. View my work in YouTube, Reels, Ads, and Cinematic editing.">
+    <title>Portfolio | Kamran Edit</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR (Reused) -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Kamran <span class="accent">Edit</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact" class="nav-btn">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <header class="page-hero">
+        <div class="video-overlay"></div>
+        <div class="hero-content fade-in-up">
+            <h1>My <span class="accent">Portfolio</span></h1>
+            <p class="subtext">Selected Works & Case Studies</p>
+        </div>
+    </header>
+
+    <!-- PORTFOLIO SECTION -->
+    <section class="section">
+        <div class="container">
+
+            <!-- FILTER BAR -->
+            <div class="filter-bar fade-in">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="youtube">YouTube</button>
+                <button class="filter-btn" data-filter="reels">Reels</button>
+                <button class="filter-btn" data-filter="ads">Ads</button>
+                <button class="filter-btn" data-filter="cinematic">Cinematic</button>
+            </div>
+
+            <!-- VIDEO GRID -->
+            <div class="portfolio-grid">
+                <!-- Item 1 -->
+                <div class="portfolio-item fade-in delay-100" data-category="youtube"
+                    data-video="https://drive.google.com/file/d/1JvLXAkI19PO1LR5dZXWt0jF_OHk1gQOz/preview">
+                    <div class="thumb-container">
+                        <img src="image/A & B.png" alt="YouTube Vlog Editing">
+                        <div class="overlay">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3>After & Before</h3>
+                        <span class="category-tag">YouTube Shorts</span>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="portfolio-item fade-in delay-200" data-category="ads"
+                    data-video="https://drive.google.com/file/d/1yV6kO-BDMAbTHqBxTojjONeK1c9qMuiQ/preview">
+                    <div class="thumb-container">
+                        <img src="image/3D ads.png" alt="Tech Product Ad">
+                        <div class="overlay">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3>3D Ads</h3>
+                        <span class="category-tag">Ads</span>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="portfolio-item fade-in delay-300" data-category="reels"
+                    data-video="https://drive.google.com/file/d/13XfpCKgXhJgBf1kpPxj8aTDLGYBpcwtU/preview">
+                    <div class="thumb-container">
+                        <img src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&q=80"
+                            alt="Fitness Reel">
+                        <div class="overlay">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3>Fitness Motivation</h3>
+                        <span class="category-tag">Reels</span>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="portfolio-item fade-in delay-100" data-category="cinematic"
+                    data-video="https://drive.google.com/file/d/1y43FFuc-WTPRsYd9BC85Yr3hb5Ey9i45/preview">
+                    <div class="thumb-container">
+                        <img src="image/sd.jpg" alt="Short Film Teaser">
+                        <div class="overlay">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3>Documentary</h3>
+                        <span class="category-tag">Youtube</span>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="portfolio-item fade-in delay-200" data-category="youtube"
+                    data-video="https://drive.google.com/file/d/13hmHM3oZ2AzYpvErOlJ7zmVekwo0qZKA/preview">
+                    <div class="thumb-container">
+                        <img src="https://images.unsplash.com/photo-1598550476439-6847785fcea6?auto=format&fit=crop&q=80"
+                            alt="Gaming Highlights">
+                        <div class="overlay">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3>Pro Gaming Highlights</h3>
+                        <span class="category-tag">YouTube</span>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="portfolio-item fade-in delay-300" data-category="reels"
+                    data-video="https://drive.google.com/file/d/13XfpCKgXhJgBf1kpPxj8aTDLGYBpcwtU/preview">
+                    <div class="thumb-container">
+                        <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&q=80"
+                            alt="Fashion Reel">
+                        <div class="overlay">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3>Fashion Week Recap</h3>
+                        <span class="category-tag">Reels</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FEATURED CASE STUDY -->
+    <section class="section case-study-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Case Study</h2>
+            <div class="case-study fade-in">
+                <div class="case-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0"
+                        title="Case Study Video" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="case-content">
+                    <h3>Brand Identity Overhaul</h3>
+                    <p class="case-meta">Client: TechStart • Duration: 2 Weeks</p>
+
+                    <div class="case-details">
+                        <div class="detail-block">
+                            <h4><i class="fas fa-bullseye"></i> The Problem</h4>
+                            <p>The client had raw footage that lacked energy and didn't align with their modern brand
+                                voice.</p>
+                        </div>
+                        <div class="detail-block">
+                            <h4><i class="fas fa-tools"></i> The Approach</h4>
+                            <p>Implemented fast-paced cuts, kinetic typography, and a custom sound design to boost
+                                retention.</p>
+                        </div>
+                        <div class="detail-block">
+                            <h4><i class="fas fa-chart-line"></i> The Result</h4>
+                            <p>A high-converting ad that generated 200% more leads than their previous campaign.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION (Reused) -->
+    <section id="contact" class="section cta-section">
+        <div class="container">
+            <h2 class="fade-in">Want videos like these?</h2>
+            <p class="fade-in">Let's create high-impact content for your brand.</p>
+            <a href="index.html#contact" class="btn btn-primary glow-effect fade-in">Let’s Work Together</a>
+        </div>
+    </section>
+
+    <!-- FOOTER (Reused) -->
+    <footer>
+        <div class="container footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2024 Kamran Edit. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- VIDEO MODAL -->
+    <div id="videoModal" class="video-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-video-container">
+                <iframe id="modalIframe" src="" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="modal-info">
+                <h3 id="modalTitle">Video Title</h3>
+                <p id="modalCategory">Category</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
